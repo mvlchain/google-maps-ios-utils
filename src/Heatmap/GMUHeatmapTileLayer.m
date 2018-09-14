@@ -24,8 +24,8 @@
 
 static const int kGMUTileSize = 512;
 static const int kGMUMaxZoom = 22;
-static const int kGMUMinZoomIntensity = 5;
-static const int kGMUMaxZoomIntensity = 10;
+static const int kGMUMinZoomIntensity = 3;
+static const int kGMUMaxZoomIntensity = 1000;
 
 static void FreeDataProviderData(void *info, const void *data, size_t size) { free((void *)data); }
 
